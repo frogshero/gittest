@@ -9,6 +9,10 @@ git commit -a -m develop2
 git push origin master
 git branch -D develop2
 
+git push origin develop3  //develop3 -> develop3 (non-fast-forward) push之前develop3已经被修改了
+git pull -r origin develop3  //
+git push origin develop3
+
 4
 5
 6
