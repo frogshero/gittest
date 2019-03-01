@@ -8,3 +8,4 @@ git merge --squash develop2
 git branch -D develop2
 
 1
+2
