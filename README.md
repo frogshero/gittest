@@ -1,5 +1,3 @@
 "# gittest" 
-1
-2
-3
-4
+
+git commit -a -m test3  //-a = -all
