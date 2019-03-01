@@ -1,6 +1,8 @@
 "# gittest" 
-
+git checkout -b develop2 //创建一个分支develop2
 git commit -a -m test3  //-a = -all
-git push
+git push origin develop //git push <远程主机名> <本地分2支名>  <远程分支名>
 
-git push origin develop //git push <远程主机名> <本地分支名>  <远程分支名>
+git checkout master 切换到master
+git merge --squash develop2
+git branch -D develop2
